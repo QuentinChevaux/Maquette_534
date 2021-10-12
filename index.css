@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 0 0 auto;
+}
+
+header {
+    background-image: url("header_background.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin-bottom: 80px;
+}
+
+.header_father {
+    display: flex;
+    margin-bottom: 600px;
+}
+
+.div_header_2 {
+    margin-left: 850px;
+    margin-top: 280px;
+}
+
+.div_header_2 .cl {
+    color: #fff;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin-bottom: -40px;
+}
+
+.div_header_2 h1 {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 1.2em;
+    margin-bottom: -10px;
+}
+
+.div_header_2 p {
+    color: #fff;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-bottom: 40px;
+}
+
+.div_header_2 a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px 30px;
+    background-color: #fecb62;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+}
+
+.div_header_2 a:hover {
+    background-color: #fff;
+}
+
+.triple_colone {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.triple_colone div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.col_1_background {
+    background-image: url("col_1_bacjground.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.col_1_bottom {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 70%;
+    border: 15px solid #fff;
+    border-bottom: none !important;
+}
+
+.col_1_side {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    width: 35%;
+    background-color: #2762b2;
+    border-radius: 50%;
+}
+
+.col_1_side img {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.col_1_side p {
+    color: #fff;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 13px;
+    line-height: 1.8em;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.titre_middle_div {
+    color: #0b203d;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 0 !important;
+}
+
+.text_middle_div h2 {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0b203d;
+    line-height: 1.2em;
+}
+
+.text_middle_div p {
+    color: #0b203d;
+    line-height: 1.8em;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.text_middle_div a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px 30px;
+    background-color: #fecb62;
+    font-size: 15px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+}
+
+.text_middle_div a:hover {
+    background-color: #2762b2;
+    color: #fff;
+}
+
+.col_3_text {
+    color: #0b203d;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.col_3_phone {
+    background-color: #0b203d;
+    
+}
+
+.col_3_phone img {
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: -20px;
+}
+
+.col_3_phone p {
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.col_3 a {
+    text-decoration: none;
+}
+
+
+.map_section {
+    background-image: url("https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/09/handyman-37-3ccaffs.png");
+    height: 600px;
+}
+
+.map_section h2, .map_section p {
+    text-align: center;
+}
+
+.map_section h2 {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    color: #0b203d;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.map_section p {
+    color: #0b203d;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.8em;
+    padding-top: -20px;
+}
+
+.map_section_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.number {
+    color: #fff !important;
+    background-color: #0b203d;
+}
